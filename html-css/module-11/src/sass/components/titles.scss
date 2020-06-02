@@ -1,0 +1,30 @@
+.title {
+  text-align: center;
+  margin: 0 0 62px 0;
+  display: flex;
+  flex-flow: column-reverse wrap;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #333333;
+  text-transform: uppercase;
+
+  &::before {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: rgb(243, 129, 129);
+    margin-top: 40px;
+  }
+
+  &__decoration {
+    font-family: "Kaushan Script", cursive;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    text-transform: none;
+    margin: 0 0 18px 0;
+  }
+}
